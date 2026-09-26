@@ -1,0 +1,21 @@
+﻿hotel_id,hotel_name,location,hotel_type,room_capacity,contact,email,opening_date
+H001,Aurelia Grand Delhi,"Aerocity, New Delhi, Delhi",Luxury Hotel,400,8000000001,reservations01@hotelgroup.example.com,2009-05-29
+H002,The Meridian Crown,"Bandra Kurla Complex, Mumbai, Maharashtra",Luxury Hotel,330,8000000002,reservations02@hotelgroup.example.com,2004-02-26
+H003,Cove Vista Retreat,"Candolim, North Goa, Goa",Resort,380,8000000003,reservations03@hotelgroup.example.com,2003-11-08
+H004,Aravalli Palace Resort,"Udaipur, Rajasthan",Resort,320,8000000004,reservations04@hotelgroup.example.com,2008-08-24
+H005,Amber Dunes Resort,"Amer, Jaipur, Rajasthan",Resort,300,8000000005,reservations05@hotelgroup.example.com,2008-11-26
+H006,The Courtyard Atelier,"Fort, Mumbai, Maharashtra",Boutique Hotel,180,8000000006,reservations06@hotelgroup.example.com,2001-11-14
+H007,Indira House,"Indiranagar, Bengaluru, Karnataka",Boutique Hotel,160,8000000007,reservations07@hotelgroup.example.com,2002-07-25
+H008,Malabar Heritage Suites,"Fort Kochi, Kochi, Kerala",Boutique Hotel,150,8000000008,reservations08@hotelgroup.example.com,2005-11-20
+H009,Highway Haven Motel,"NH-48, Behror, Rajasthan",Motel,100,8000000009,reservations09@hotelgroup.example.com,2006-06-20
+H010,Coastal Route Motel,"Old Mahabalipuram Road, Chennai, Tamil Nadu",Motel,90,8000000010,reservations10@hotelgroup.example.com,2000-03-11
+H011,Skyline Transit Hotel,"Mahipalpur, New Delhi, Delhi",Airport Hotel,320,8000000011,reservations11@hotelgroup.example.com,2002-05-16
+H012,Terminal Greens Hotel,"Devanahalli, Bengaluru, Karnataka",Airport Hotel,280,8000000012,reservations12@hotelgroup.example.com,2003-07-04
+H013,Runway Residency,"Shamshabad, Hyderabad, Telangana",Airport Hotel,250,8000000013,reservations13@hotelgroup.example.com,2003-10-14
+H014,Orion Business Park Hotel,"Golf Course Road, Gurugram, Haryana",Business Hotel,380,8000000014,reservations14@hotelgroup.example.com,2001-02-12
+H015,Tech Corridor Suites,"Hinjewadi, Pune, Maharashtra",Business Hotel,330,8000000015,reservations15@hotelgroup.example.com,2002-06-26
+H016,Whitefield Business House,"Whitefield, Bengaluru, Karnataka",Business Hotel,300,8000000016,reservations16@hotelgroup.example.com,2010-11-13
+H017,Urban Stay 29,"Sector 29, Gurugram, Haryana",Budget Hotel,180,8000000017,reservations17@hotelgroup.example.com,2000-11-04
+H018,Metro Value Inn,"Andheri East, Mumbai, Maharashtra",Budget Hotel,170,8000000018,reservations18@hotelgroup.example.com,2007-04-05
+H019,Awadh Heritage House,"Lalbagh, Lucknow, Uttar Pradesh",Heritage Hotel,190,8000000019,reservations19@hotelgroup.example.com,2001-11-04
+H020,Himalayan View Heritage,"Mall Road, Shimla, Himachal Pradesh",Heritage Hotel,190,8000000020,reservations20@hotelgroup.example.com,2002-10-07

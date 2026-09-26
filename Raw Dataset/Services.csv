@@ -1,0 +1,152 @@
+﻿service_id,hotel_id,service_name,service_category,service_type,service_price,service_status
+S0001,H001,Lunch,Food & Beverage,Per Person,2460,Inactive
+S0002,H001,Breakfast,Food & Beverage,Per Person,1040,Active
+S0003,H001,Dry Cleaning,Housekeeping & Convenience,Per Item,1030,Active
+S0004,H001,Extra Bed,Housekeeping & Convenience,Per Day,3320,Inactive
+S0005,H001,Yoga Session,Wellness & Recreation,Per Use,1940,Active
+S0006,H001,Dinner,Food & Beverage,Per Person,2870,Active
+S0007,H001,Local Transport,Transport,Per Use,1290,Active
+S0008,H001,Airport Transfer,Transport,Per Use,3220,Active
+S0009,H001,Room Service,Food & Beverage,Per Use,2220,Active
+S0010,H001,Wi-Fi Package,Business & Other,Per Day,360,Active
+S0011,H002,Lunch,Food & Beverage,Per Person,2370,Inactive
+S0012,H002,Room Service,Food & Beverage,Per Use,1440,Active
+S0013,H002,Luggage Storage,Housekeeping & Convenience,Per Day,630,Active
+S0014,H002,Ironing,Housekeeping & Convenience,Per Item,450,Active
+S0015,H002,Spa,Wellness & Recreation,Per Use,3400,Active
+S0016,H002,Minibar,Food & Beverage,Per Item,860,Inactive
+S0017,H002,Breakfast,Food & Beverage,Per Person,1150,Active
+S0018,H002,Wi-Fi Package,Business & Other,Per Day,1260,Inactive
+S0019,H002,Extra Bed,Housekeeping & Convenience,Per Day,3280,Active
+S0020,H002,Yoga Session,Wellness & Recreation,Per Use,2070,Active
+S0021,H002,Massage,Wellness & Recreation,Per Use,4520,Active
+S0022,H003,Yoga Session,Wellness & Recreation,Per Use,1010,Active
+S0023,H003,Local Transport,Transport,Per Use,2190,Active
+S0024,H003,Lunch,Food & Beverage,Per Person,2300,Inactive
+S0025,H003,Ironing,Housekeeping & Convenience,Per Item,410,Active
+S0026,H003,Dry Cleaning,Housekeeping & Convenience,Per Item,660,Active
+S0027,H003,Gym Access,Wellness & Recreation,Per Day,1460,Active
+S0028,H003,Extra Bed,Housekeeping & Convenience,Per Day,1370,Active
+S0029,H003,Dinner,Food & Beverage,Per Person,1990,Active
+S0030,H003,Spa,Wellness & Recreation,Per Use,5700,Active
+S0031,H003,Room Service,Food & Beverage,Per Use,2280,Active
+S0032,H004,Minibar,Food & Beverage,Per Item,1530,Active
+S0033,H004,Massage,Wellness & Recreation,Per Use,2090,Active
+S0034,H004,Gym Access,Wellness & Recreation,Per Day,970,Active
+S0035,H004,Dry Cleaning,Housekeeping & Convenience,Per Item,800,Active
+S0036,H004,Room Service,Food & Beverage,Per Use,2080,Active
+S0037,H004,Car Rental,Transport,Per Day,3390,Active
+S0038,H004,Airport Transfer,Transport,Per Use,2090,Active
+S0039,H004,Laundry,Housekeeping & Convenience,Per Item,450,Active
+S0040,H004,Breakfast,Food & Beverage,Per Person,600,Active
+S0041,H004,Luggage Storage,Housekeeping & Convenience,Per Day,730,Active
+S0042,H005,Dry Cleaning,Housekeeping & Convenience,Per Item,740,Active
+S0043,H005,Extra Bed,Housekeeping & Convenience,Per Day,1180,Active
+S0044,H005,Local Transport,Transport,Per Use,1730,Active
+S0045,H005,Airport Transfer,Transport,Per Use,3100,Active
+S0046,H005,Gym Access,Wellness & Recreation,Per Day,440,Active
+S0047,H005,Massage,Wellness & Recreation,Per Use,3020,Active
+S0048,H005,Lunch,Food & Beverage,Per Person,950,Active
+S0049,H005,Yoga Session,Wellness & Recreation,Per Use,1800,Active
+S0050,H005,Pool Access,Wellness & Recreation,Per Person,580,Active
+S0051,H005,Breakfast,Food & Beverage,Per Person,810,Active
+S0052,H005,Spa,Wellness & Recreation,Per Use,2740,Active
+S0053,H006,Spa,Wellness & Recreation,Per Use,3610,Active
+S0054,H006,Wi-Fi Package,Business & Other,Per Day,760,Active
+S0055,H006,Room Service,Food & Beverage,Per Use,1760,Active
+S0056,H006,Dry Cleaning,Housekeeping & Convenience,Per Item,790,Active
+S0057,H006,Breakfast,Food & Beverage,Per Person,810,Active
+S0058,H006,Airport Transfer,Transport,Per Use,1370,Active
+S0059,H006,Extra Bed,Housekeeping & Convenience,Per Day,990,Active
+S0060,H006,Laundry,Housekeeping & Convenience,Per Item,370,Active
+S0061,H007,Luggage Storage,Housekeeping & Convenience,Per Day,180,Active
+S0062,H007,Massage,Wellness & Recreation,Per Use,3550,Active
+S0063,H007,Spa,Wellness & Recreation,Per Use,3800,Active
+S0064,H007,Dinner,Food & Beverage,Per Person,1480,Active
+S0065,H007,Breakfast,Food & Beverage,Per Person,1200,Active
+S0066,H007,Airport Transfer,Transport,Per Use,930,Active
+S0067,H008,Extra Bed,Housekeeping & Convenience,Per Day,1570,Active
+S0068,H008,Dry Cleaning,Housekeeping & Convenience,Per Item,840,Active
+S0069,H008,Airport Transfer,Transport,Per Use,1430,Active
+S0070,H008,Breakfast,Food & Beverage,Per Person,540,Inactive
+S0071,H008,Room Service,Food & Beverage,Per Use,1710,Active
+S0072,H008,Dinner,Food & Beverage,Per Person,2220,Active
+S0073,H008,Local Transport,Transport,Per Use,1330,Active
+S0074,H008,Luggage Storage,Housekeeping & Convenience,Per Day,560,Active
+S0075,H009,Extra Bed,Housekeeping & Convenience,Per Day,1510,Active
+S0076,H009,Room Service,Food & Beverage,Per Use,550,Inactive
+S0077,H009,Breakfast,Food & Beverage,Per Person,460,Active
+S0078,H009,Wi-Fi Package,Business & Other,Per Day,150,Active
+S0079,H009,Laundry,Housekeeping & Convenience,Per Item,100,Active
+S0080,H009,Airport Transfer,Transport,Per Use,980,Inactive
+S0081,H010,Wi-Fi Package,Business & Other,Per Day,410,Active
+S0082,H010,Luggage Storage,Housekeeping & Convenience,Per Day,70,Active
+S0083,H010,Laundry,Housekeeping & Convenience,Per Item,300,Active
+S0084,H010,Airport Transfer,Transport,Per Use,1130,Active
+S0085,H010,Room Service,Food & Beverage,Per Use,930,Active
+S0086,H011,Lunch,Food & Beverage,Per Person,2040,Active
+S0087,H011,Breakfast,Food & Beverage,Per Person,1230,Active
+S0088,H011,Extra Bed,Housekeeping & Convenience,Per Day,2670,Active
+S0089,H011,Local Transport,Transport,Per Use,1050,Active
+S0090,H011,Dry Cleaning,Housekeeping & Convenience,Per Item,420,Active
+S0091,H011,Laundry,Housekeeping & Convenience,Per Item,610,Inactive
+S0092,H011,Wi-Fi Package,Business & Other,Per Day,390,Active
+S0093,H012,Minibar,Food & Beverage,Per Item,860,Active
+S0094,H012,Airport Transfer,Transport,Per Use,2700,Active
+S0095,H012,Dry Cleaning,Housekeeping & Convenience,Per Item,1040,Active
+S0096,H012,Laundry,Housekeeping & Convenience,Per Item,410,Active
+S0097,H012,Dinner,Food & Beverage,Per Person,1120,Active
+S0098,H012,Room Service,Food & Beverage,Per Use,960,Active
+S0099,H013,Local Transport,Transport,Per Use,1160,Active
+S0100,H013,Luggage Storage,Housekeeping & Convenience,Per Day,200,Active
+S0101,H013,Extra Bed,Housekeeping & Convenience,Per Day,1030,Active
+S0102,H013,Minibar,Food & Beverage,Per Item,460,Active
+S0103,H013,Breakfast,Food & Beverage,Per Person,1220,Active
+S0104,H013,Wi-Fi Package,Business & Other,Per Day,770,Active
+S0105,H013,Laundry,Housekeeping & Convenience,Per Item,590,Active
+S0106,H013,Dinner,Food & Beverage,Per Person,1280,Active
+S0107,H014,Laundry,Housekeeping & Convenience,Per Item,310,Active
+S0108,H014,Breakfast,Food & Beverage,Per Person,630,Active
+S0109,H014,Conference Room,Business & Other,Per Hour,1620,Active
+S0110,H014,Business Center,Business & Other,Per Hour,1060,Active
+S0111,H014,Airport Transfer,Transport,Per Use,2460,Inactive
+S0112,H014,Lunch,Food & Beverage,Per Person,1360,Active
+S0113,H014,Dinner,Food & Beverage,Per Person,2100,Inactive
+S0114,H015,Business Center,Business & Other,Per Hour,660,Active
+S0115,H015,Breakfast,Food & Beverage,Per Person,1260,Active
+S0116,H015,Airport Transfer,Transport,Per Use,2310,Active
+S0117,H015,Dry Cleaning,Housekeeping & Convenience,Per Item,270,Inactive
+S0118,H015,Laundry,Housekeeping & Convenience,Per Item,150,Active
+S0119,H015,Dinner,Food & Beverage,Per Person,1630,Inactive
+S0120,H016,Extra Bed,Housekeeping & Convenience,Per Day,2420,Active
+S0121,H016,Meeting Room,Business & Other,Per Hour,2530,Active
+S0122,H016,Wi-Fi Package,Business & Other,Per Day,420,Active
+S0123,H016,Dinner,Food & Beverage,Per Person,1970,Active
+S0124,H016,Airport Transfer,Transport,Per Use,1310,Active
+S0125,H016,Breakfast,Food & Beverage,Per Person,480,Active
+S0126,H016,Room Service,Food & Beverage,Per Use,1310,Active
+S0127,H016,Laundry,Housekeeping & Convenience,Per Item,540,Active
+S0128,H017,Room Service,Food & Beverage,Per Use,560,Active
+S0129,H017,Wi-Fi Package,Business & Other,Per Day,430,Active
+S0130,H017,Breakfast,Food & Beverage,Per Person,750,Active
+S0131,H017,Luggage Storage,Housekeeping & Convenience,Per Day,210,Active
+S0132,H018,Local Transport,Transport,Per Use,1070,Active
+S0133,H018,Wi-Fi Package,Business & Other,Per Day,740,Active
+S0134,H018,Laundry,Housekeeping & Convenience,Per Item,310,Active
+S0135,H018,Breakfast,Food & Beverage,Per Person,510,Active
+S0136,H018,Extra Bed,Housekeeping & Convenience,Per Day,1530,Active
+S0137,H018,Room Service,Food & Beverage,Per Use,740,Active
+S0138,H019,Spa,Wellness & Recreation,Per Use,4350,Active
+S0139,H019,Breakfast,Food & Beverage,Per Person,1140,Active
+S0140,H019,Massage,Wellness & Recreation,Per Use,1530,Active
+S0141,H019,Room Service,Food & Beverage,Per Use,1250,Active
+S0142,H019,Luggage Storage,Housekeeping & Convenience,Per Day,330,Active
+S0143,H019,Dinner,Food & Beverage,Per Person,1520,Active
+S0144,H019,Extra Bed,Housekeeping & Convenience,Per Day,910,Active
+S0145,H019,Dry Cleaning,Housekeeping & Convenience,Per Item,480,Active
+S0146,H020,Dinner,Food & Beverage,Per Person,2260,Active
+S0147,H020,Dry Cleaning,Housekeeping & Convenience,Per Item,590,Active
+S0148,H020,Laundry,Housekeeping & Convenience,Per Item,160,Active
+S0149,H020,Extra Bed,Housekeeping & Convenience,Per Day,920,Active
+S0150,H020,Spa,Wellness & Recreation,Per Use,2600,Active
+S0151,H020,Room Service,Food & Beverage,Per Use,1370,Active
