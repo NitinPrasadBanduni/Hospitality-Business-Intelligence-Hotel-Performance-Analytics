@@ -24,7 +24,14 @@ be resolved using a clear business rule.
 
 USE Hospitality_BI;
 
+
+-- ============================================================
+-- TEMPORARILY DISABLE SAFE UPDATE MODE
+-- ============================================================
+
 SET SQL_SAFE_UPDATES = 0;
+
+
 -- ============================================================
 -- 1. TEXT STANDARDIZATION
 -- ============================================================
@@ -243,3 +250,9 @@ The Hotels table passed all cleaning and validation checks.
 No data-quality corrections were required beyond standardization
 of text fields.
 */
+
+-- ============================================================
+-- RE-ENABLE SAFE UPDATE MODE
+-- ============================================================
+
+SET SQL_SAFE_UPDATES = 1;
