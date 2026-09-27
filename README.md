@@ -92,6 +92,18 @@ The dataset is designed to support analysis of questions such as:
 - Two bookings were identified where `booking_date = check_in_date`; these will be addressed during the cleaning stage.
 - Booking-room-to-hotel consistency will be validated after the relational structure is established.
 
+**05. ETL / Load**
+- Loaded transformed data from the staging layer into the 9 operational tables.
+- Applied basic transformations including trimming, numeric datatype conversion, date conversion, and handling of optional blank values.
+- Successfully loaded all expected records into the operational tables.
+- ETL row counts matched the staging-table row counts.
+
+**06. Relationships**
+- Created foreign key relationships between the operational tables.
+- Verified all defined foreign-key relationships successfully.
+- No orphan records were identified when establishing referential integrity.
+- Validated that each booked room belongs to the same hotel as its booking; no inconsistencies were found.
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
