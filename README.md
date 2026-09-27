@@ -62,4 +62,36 @@ The dataset is designed to support analysis of questions such as:
 
 ---
 
+
+## SQL Development Progress
+
+### Completed
+
+**01. Database Setup**
+- Created the `Hospitality_BI` database.
+- Selected the project database for subsequent SQL operations.
+
+**02. Staging Tables**
+- Created staging tables for all 9 datasets using `stg_` naming.
+- Staging columns were defined as `VARCHAR` to preserve raw source values before transformation.
+- Raw CSV data was imported into the staging layer.
+
+**03. Operating Tables**
+- Created the 9 operational tables with appropriate SQL data types.
+- Defined primary keys and basic structural constraints.
+- Foreign key relationships are intentionally deferred to a later stage.
+
+**04. Data Profiling**
+- Performed record-count, missing-value, duplicate, domain, numeric, date, referential, and business-rule profiling.
+- No NULL or blank values were identified.
+- No duplicate records were identified.
+- No invalid categorical/domain values were identified.
+- Numeric values were within expected ranges.
+- Date formats and overall date ranges were valid.
+- No orphan foreign-key candidate records were identified.
+- Two bookings were identified where `booking_date = check_in_date`; these will be addressed during the cleaning stage.
+- Booking-room-to-hotel consistency will be validated after the relational structure is established.
+
+---
+
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
