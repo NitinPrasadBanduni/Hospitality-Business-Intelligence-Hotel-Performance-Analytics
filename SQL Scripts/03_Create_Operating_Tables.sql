@@ -2,8 +2,7 @@
 Project : Hospitality Business Intelligence & Hotel Performance Analytics
 Author  : Nitin Prasad
 Database: Hospitality_BI
-File    : 02_Create_Tables.sql
-
+File    : 03_Create_Operating_Tables.sql
 
 Purpose:
 Creates the clean operational tables used by the Hospitality Business
@@ -181,3 +180,4 @@ CREATE TABLE Expenses
     expense_category  VARCHAR(50) NOT NULL,
     amount            DECIMAL(12,2) NOT NULL
 );
+
