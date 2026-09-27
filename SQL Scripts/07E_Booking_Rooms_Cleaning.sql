@@ -208,7 +208,7 @@ WHERE br1.booking_status NOT IN ('Cancelled', 'No-Show')
 
 
 -- ============================================================
--- SECTION 12: Booking-Room and Booking Date Consistency
+-- 11. Booking-Room and Booking Date Consistency
 -- ============================================================
 
 -- Booking-room records must refer to valid stay periods
