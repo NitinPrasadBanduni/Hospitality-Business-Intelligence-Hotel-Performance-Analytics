@@ -26,7 +26,7 @@ USE Hospitality_BI;
 
 
 -- ============================================================
--- TEMPORARILY DISABLE SAFE UPDATE MODE
+-- PREPARE SESSION FOR DATA CLEANING
 -- ============================================================
 
 SET SQL_SAFE_UPDATES = 0;
