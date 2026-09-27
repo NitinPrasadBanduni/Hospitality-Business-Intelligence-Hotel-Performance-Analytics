@@ -104,6 +104,13 @@ The dataset is designed to support analysis of questions such as:
 - No orphan records were identified when establishing referential integrity.
 - Validated that each booked room belongs to the same hotel as its booking; no inconsistencies were found.
 
+**07A. Hotels Cleaning**
+- Standardized hotel text fields and email values.
+- Validated hotel IDs, hotel names, hotel types, room capacity, opening dates, contact numbers, email addresses, and locations.
+- Verified that each hotel's `room_capacity` matches its actual room inventory.
+- All validation checks passed.
+- No data-quality corrections were required beyond text standardization.
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
