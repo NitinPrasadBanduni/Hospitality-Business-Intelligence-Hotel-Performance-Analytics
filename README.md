@@ -145,6 +145,18 @@ The dataset is designed to support analysis of questions such as:
 - All validation checks passed.
 - No data-quality corrections were required beyond text standardization.
 
+**07E. Booking_Rooms Cleaning**
+- Standardized booking-room identifiers, booking IDs, room IDs, and booking status values.
+- Validated booking-room IDs, booking references, room references, room rates, discounts, booking statuses, and guest ratings.
+- Verified that all assigned rooms belong to the same hotel as their corresponding bookings.
+- Checked for duplicate room assignments within the same booking.
+- Validated physical room availability by checking for overlapping stays on the same room.
+- No room-overlap conflicts were identified among non-cancelled and non-no-show bookings.
+- Number of rooms assigned per booking ranges from 1 to 4.
+- Final validation confirmed 12,792 booking-room records, 12,792 unique booking-room IDs, 10,000 bookings with room assignments, and 4,969 distinct rooms assigned.
+- All validation checks passed.
+- No data-quality corrections were required beyond text standardization.
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
