@@ -913,192 +913,46 @@ WHERE STR_TO_DATE(su.usage_date, '%Y-%m-%d')
 PROFILING FINDINGS
 ------------------
 
-1. RECORD COUNT VALIDATION
+1. RECORD COUNTS
    - All nine staging tables contain the expected number of records.
-   - Hotels          : 20
-   - Rooms           : 5,000
-   - Guests          : 5,000
-   - Bookings        : 10,000
-   - Booking_Rooms   : 12,792
-   - Payments        : 10,384
-   - Services        : 151
-   - Service_Usage   : 19,500
-   - Expenses        : 8,064
 
-2. NULL / MISSING VALUE ANALYSIS
-   - No NULL values were identified in any staging table.
-   - No blank or empty values were identified in any staging table.
-   - No missing-value treatment is currently required.
+2. MISSING VALUES
+   - No NULL or blank values were identified.
 
-3. DUPLICATE ANALYSIS
-   - No duplicate records were identified based on the primary-key
-     candidate columns of the nine staging tables.
-   - No duplicate-key cleaning is currently required.
+3. DUPLICATES
+   - No duplicate primary-key candidate values were identified.
 
-4. HOTEL TYPE VALIDATION
-   - Valid hotel types identified:
-     Airport Hotel
-     Boutique Hotel
-     Budget Hotel
-     Business Hotel
-     Heritage Hotel
-     Luxury Hotel
-     Motel
-     Resort
-   - No unexpected hotel types were found.
+4. DOMAIN VALIDATION
+   - All categorical fields contain valid and expected values.
+   - No unexpected hotel types, room types, booking channels,
+     payment types, service categories, service statuses,
+     or expense categories were identified.
 
-5. ROOM DOMAIN VALIDATION
-   - Valid room types identified:
-     Deluxe
-     Executive
-     Family
-     Premium
-     Standard
-     Suite
-     Villa
-   - Valid room statuses identified:
-     Available
-     Maintenance
-     Out of Service
-     Reserved
-   - No unexpected room types or room statuses were found.
+5. NUMERIC VALIDATION
+   - Numeric fields fall within the expected business ranges.
+   - No invalid numeric values were identified.
 
-6. GUEST DOMAIN VALIDATION
-   - Valid gender values identified:
-     Male
-     Female
-     Other
-   - No unexpected gender values were found.
+6. DATE VALIDATION
+   - All date values follow the expected YYYY-MM-DD format.
+   - Dates fall within the planned business periods.
 
-7. BOOKING DOMAIN VALIDATION
-   - Valid booking channels identified:
-     Corporate Booking
-     Hotel Website
-     Mobile App
-     OTA
-     Phone Booking
-     Travel Agent
-     Walk-in
-   - No unexpected booking channels were found.
+7. REFERENTIAL VALIDATION
+   - No orphan foreign-key candidate values were identified
+     across the staging tables.
 
-8. BOOKING ROOM STATUS VALIDATION
-   - Valid booking statuses identified:
-     Cancelled
-     Checked-Out
-     No-Show
-   - No unexpected booking statuses were found.
+8. BUSINESS-RULE VALIDATION
+   - Two bookings have booking_date equal to check_in_date.
+     Expected rule: booking_date < check_in_date.
+   - No invalid check-in/check-out sequences were identified.
+   - No guest registration dates occur after booking dates.
+   - All service usage dates fall within the corresponding stay.
+   - All services used belong to the same hotel as the booking.
+   - Booking-room hotel consistency will be validated after
+     relationships are established.
 
-9. PAYMENT DOMAIN VALIDATION
-   - Valid payment types identified:
-     Room
-     Room + Service
-     Service
-   - Valid payment methods identified:
-     Cash
-     Credit Card
-     Debit Card
-     Digital Wallet
-     Net Banking
-     UPI
-   - No unexpected payment types or payment methods were found.
-
-10. SERVICE DOMAIN VALIDATION
-    - Valid service categories identified:
-      Business & Other
-      Food & Beverage
-      Housekeeping & Convenience
-      Transport
-      Wellness & Recreation
-
-    - Valid service types identified:
-      Per Day
-      Per Hour
-      Per Item
-      Per Person
-      Per Use
-
-    - Valid service statuses identified:
-      Active
-      Inactive
-
-    - No unexpected service categories, service types, or service
-      statuses were found.
-
-11. SERVICE USAGE DOMAIN VALIDATION
-    - Valid payment statuses identified:
-      Complimentary
-      Paid
-      Pending
-    - No unexpected payment statuses were found.
-
-12. EXPENSE DOMAIN VALIDATION
-    - Valid expense categories identified:
-      Employee & Staff
-      Food & Beverage
-      Housekeeping
-      Laundry
-      Maintenance
-      Marketing
-      Other Operating Expenses
-      Security
-      Supplies
-      Technology
-      Transportation
-      Utilities
-
-    - No unexpected expense categories were found.
-
-13. NEXT PROFILING AREAS
-    - Numeric range validation
-    - Date range and date-format validation
-    - Cross-table relationship validation
-    - Business-rule validation
-    - ETL transformations required
-    - Cleaning actions required
-    
-14. NUMERIC VALUE VALIDATION
-    - Hotel room capacity ranges from 90 to 400 rooms, with an average
-      of 250 rooms per hotel.
-    - Room maximum occupancy ranges from 1 to 6 guests.
-    - Current room rates range from ₹1,100 to ₹35,400.
-    - Historical booking room rates range from ₹1,000 to ₹41,400.
-    - Room discounts range from 0% to 30%.
-    - Guest ages range from 18 to 75 years.
-    - Guest ratings range from 1 to 5.
-    - Service prices range from ₹70 to ₹5,700.
-    - Service usage quantity ranges from 1 to 10 units.
-    - Service discounts range from 0% to 25%.
-    - Expense amounts are positive and range from ₹1,434.62 to ₹352,436.70.
-    - No invalid numeric ranges were identified.
-    
-15. DATE RANGE VALIDATION
-    - Hotel opening dates fall within the planned 2000–2010 period.
-    - Guest registration dates fall within the planned 2016–2025 period.
-    - Booking activity falls within January 2024–August 2026.
-    - Check-in and check-out dates fall within the planned analysis period.
-    - Payment, service usage, and expense dates fall within
-      January 2024–August 2026.
-    - No out-of-range dates were identified from overall date boundaries.
-    - Record-level date relationships still require validation.
-    
-16. BUSINESS-RULE VALIDATION
-    - 2 records were identified where booking_date is equal to
-      check_in_date. The expected rule is booking_date < check_in_date.
-      These records require correction during booking-data cleaning.
-
-    - No records were identified where check_in_date is greater than
-      or equal to check_out_date.
-
-    - No records were identified where guest registration_date is
-      later than the booking_date.
-
-    - All service usage dates fall within the corresponding booking
-      stay period.
-
-    - All services used belong to the same hotel as the corresponding
-      booking.
-
-    - Booking room hotel consistency requires further validation after
-      the relational structure is established and will be handled during
-      the cleaning/validation stage.
+9. PROFILING CONCLUSION
+   - The staging data is structurally consistent and largely
+     follows the defined business rules.
+   - The identified booking-date issue will be addressed during
+     the cleaning stage.
 */

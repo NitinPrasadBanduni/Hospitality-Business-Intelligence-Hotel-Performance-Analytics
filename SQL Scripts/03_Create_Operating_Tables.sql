@@ -181,3 +181,6 @@ CREATE TABLE Expenses
     amount            DECIMAL(12,2) NOT NULL
 );
 
+
+
+
