@@ -180,7 +180,3 @@ CREATE TABLE Expenses
     expense_category  VARCHAR(50) NOT NULL,
     amount            DECIMAL(12,2) NOT NULL
 );
-
-
-
-

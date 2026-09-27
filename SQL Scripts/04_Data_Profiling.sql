@@ -1,6 +1,6 @@
 /*=========================================================================
 Project : Hospitality Business Intelligence & Hotel Performance Analytics
-Author  : Nitin
+Author  : Nitin Prasad
 Database: Hospitality_BI
 File    : 04_Data_Profiling.sql
 
