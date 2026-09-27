@@ -111,6 +111,16 @@ The dataset is designed to support analysis of questions such as:
 - All validation checks passed.
 - No data-quality corrections were required beyond text standardization.
 
+**07B. Rooms Cleaning**
+- Standardized room identifiers, room numbers, room types, and room status values.
+- Validated room IDs, room numbers, room types, room statuses, maximum occupancy, and room rates.
+- Verified that all rooms are correctly mapped to valid hotels.
+- Checked for duplicate room numbers within each hotel.
+- Verified that each hotel's actual room inventory matches its `room_capacity`.
+- Confirmed that room-type occupancy rules are satisfied.
+- All validation checks passed.
+- No data-quality corrections were required beyond text standardization.
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
