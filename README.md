@@ -121,6 +121,17 @@ The dataset is designed to support analysis of questions such as:
 - All validation checks passed.
 - No data-quality corrections were required beyond text standardization.
 
+**07C. Guests Cleaning**
+- Standardized guest identifiers, names, gender, locations, contact numbers, and email values.
+- Validated guest IDs, names, gender, age, locations, contact numbers, email addresses, and registration dates.
+- Verified that all guest ages fall within the expected 18–75 range.
+- Confirmed that all guest registration dates occur on or before their first booking date.
+- Verified that every registered guest has at least one booking.
+- No duplicate guest IDs or email addresses were found.
+- Final validation confirmed 5,000 guests, 5,000 unique guest IDs, and 5,000 unique email addresses.
+- All validation checks passed.
+- No data-quality corrections were required beyond text standardization.
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
