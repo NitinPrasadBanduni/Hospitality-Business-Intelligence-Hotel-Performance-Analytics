@@ -121,6 +121,30 @@ The dataset is designed to support analysis of questions such as:
 - All validation checks passed.
 - No data-quality corrections were required beyond text standardization.
 
+**07C. Guests Cleaning**
+- Standardized guest identifiers, names, gender, locations, contact numbers, and email values.
+- Validated guest IDs, names, gender, age, locations, contact numbers, email addresses, and registration dates.
+- Verified that all guest ages fall within the expected 18–75 range.
+- Confirmed that all guest registration dates occur on or before their first booking date.
+- Verified that every registered guest has at least one booking.
+- No duplicate guest IDs or email addresses were found.
+- Final validation confirmed 5,000 guests, 5,000 unique guest IDs, and 5,000 unique email addresses.
+- All validation checks passed.
+- No data-quality corrections were required beyond text standardization.
+
+**07D. Bookings Cleaning**
+- Standardized booking identifiers, hotel IDs, guest IDs, and booking channel values.
+- Validated booking IDs, hotel and guest references, booking channels, and all booking-related dates.
+- Confirmed that all booking, check-in, and check-out dates fall within the project period.
+- Verified that booking dates do not occur after check-in dates and that all check-in dates occur before check-out dates.
+- Reviewed same-day bookings where the booking date equals the check-in date; both records were confirmed as valid and retained.
+- Verified that all guests were registered before their bookings.
+- Confirmed that no booking occurred before the corresponding hotel opening date.
+- Guest booking frequency ranges from 1 to 6 bookings.
+- Final validation confirmed 10,000 bookings, 10,000 unique booking IDs, 5,000 unique guests, and bookings across all 20 hotels.
+- All validation checks passed.
+- No data-quality corrections were required beyond text standardization.
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
