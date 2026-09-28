@@ -203,6 +203,24 @@ The dataset is designed to support analysis of questions such as:
 - All validation checks passed.
 - No data-quality corrections were required beyond text standardization.
 
+**08A. Revenue Analysis**
+
+Five business-focused SQL analyses were performed to evaluate revenue generation, revenue mix, booking-channel value, discount impact, and revenue concentration.
+
+**Analysis Covered:**
+- Compared realized room revenue across all hotels.
+- Analyzed the contribution of room revenue versus service revenue to total realized revenue.
+- Compared booking channels based on booking volume and average realized revenue per booking.
+- Measured the impact of room discounts using gross revenue, discount amount, net revenue, and effective discount rate.
+- Ranked hotels by realized room revenue and calculated their contribution to total group revenue.
+- Applied SQL techniques including `JOIN`, `GROUP BY`, subqueries, CTEs, `UNION ALL`, `CASE`, `RANK()`, and window functions.
+
+**Key Business Insights:**
+- Total realized revenue from rooms and paid services was approximately **₹32.55 crore**.
+- Room revenue contributed **82.58%**, while service revenue contributed **17.42%**.
+- OTA generated the highest total realized revenue, while Phone Booking had the highest average realized revenue per booking among the channels above the overall average.
+- Overall room discount impact was approximately **7.65%**, with hotel-level effective discount rates ranging from **6.58% to 8.92%**.
+- The top five hotels contributed approximately **67.43%** of total realized room revenue, indicating significant revenue concentration across the portfolio.
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
