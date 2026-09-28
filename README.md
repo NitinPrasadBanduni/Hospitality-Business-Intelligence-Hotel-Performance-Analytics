@@ -157,6 +157,18 @@ The dataset is designed to support analysis of questions such as:
 - All validation checks passed.
 - No data-quality corrections were required beyond text standardization.
 
+**07F. Payments Cleaning**
+- Standardized payment identifiers, booking IDs, payment types, and payment method values.
+- Validated payment IDs, booking references, payment types, payment methods, and payment dates.
+- Confirmed that all payment dates fall within the project period and do not occur before their corresponding booking dates.
+- Verified that all `Service` and `Room + Service` payments have corresponding service usage records.
+- Identified that some bookings do not have payment records; these were retained as an observed transactional pattern.
+- Payment records per booking range from 1 to 2.
+- Final validation confirmed 10,384 payment records, 10,384 unique payment IDs, and 8,901 bookings with payment records.
+- All 6 expected payment methods are represented in the dataset.
+- All validation checks passed.
+- No data-quality corrections were required beyond text standardization.
+- 
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
