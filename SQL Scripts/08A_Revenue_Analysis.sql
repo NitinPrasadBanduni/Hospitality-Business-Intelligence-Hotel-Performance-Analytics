@@ -16,10 +16,6 @@ Focus Areas:
 - Revenue Trends
 - Revenue Contribution and Performance
 
-Each analysis follows:
-Business Question → Purpose → SQL Query → Result Interpretation
-→ Business Insight
-
 ===========================================================================*/
 
 USE Hospitality_BI;
