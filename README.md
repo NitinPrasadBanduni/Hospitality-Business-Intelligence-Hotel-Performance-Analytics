@@ -192,6 +192,17 @@ The dataset is designed to support analysis of questions such as:
 - All validation checks passed.
 - No data-quality corrections were required beyond text standardization.
 
+**07I. Expenses Cleaning**
+- Standardized expense identifiers, hotel IDs, and expense category values.
+- Validated expense IDs, hotel references, expense dates, expense categories, and expense amounts.
+- Confirmed that all expense dates fall within the project period and all expense amounts are positive.
+- Verified that all 12 expected expense categories are represented.
+- Confirmed that every hotel has expense records, with the number of records per hotel ranging from 400 to 408.
+- Reviewed expense volume and total expense amounts across categories for subsequent profitability analysis.
+- Final validation confirmed 8,064 expense records, 8,064 unique expense IDs, 20 hotels with expenses, and 12 expense categories.
+- All validation checks passed.
+- No data-quality corrections were required beyond text standardization.
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
