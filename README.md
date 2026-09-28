@@ -168,7 +168,18 @@ The dataset is designed to support analysis of questions such as:
 - All 6 expected payment methods are represented in the dataset.
 - All validation checks passed.
 - No data-quality corrections were required beyond text standardization.
-- 
+
+**07G. Services Cleaning**
+- Standardized service identifiers, hotel IDs, service names, service categories, service types, and service status values.
+- Validated service IDs, hotel references, service names, categories, service types, service prices, and service statuses.
+- Confirmed that there are no duplicate service names within the same hotel.
+- Verified that every hotel has a service catalogue, with the number of services per hotel ranging from 4 to 11.
+- Verified that all service usage records reference valid services.
+- Confirmed that services used for bookings belong to the same hotel as the corresponding booking.
+- Final validation confirmed 151 services, 151 unique service IDs, 20 hotels with services, 5 service categories, and 5 service types.
+- All validation checks passed.
+- No data-quality corrections were required beyond text standardization.
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
