@@ -221,6 +221,26 @@ Five business-focused SQL analyses were performed to evaluate revenue generation
 - OTA generated the highest total realized revenue, while Phone Booking had the highest average realized revenue per booking among the channels above the overall average.
 - Overall room discount impact was approximately **7.65%**, with hotel-level effective discount rates ranging from **6.58% to 8.92%**.
 - The top five hotels contributed approximately **67.43%** of total realized room revenue, indicating significant revenue concentration across the portfolio.
+
+**08B. Occupancy & Room Analysis**
+
+Five business-focused SQL analyses were performed to evaluate room utilization, pricing performance, RevPAR, and room-type demand.
+
+**Analysis Covered:**
+- Calculated hotel-level occupancy rates using occupied room nights and available room nights.
+- Calculated Average Daily Rate (ADR) to measure realized revenue per occupied room night.
+- Calculated RevPAR to evaluate room revenue after considering total available room inventory.
+- Compared room types based on revenue contribution, ADR, and occupancy.
+- Identified the highest-utilized room type within each hotel using partitioned window functions.
+- Applied SQL techniques including `JOIN`, `LEFT JOIN`, CTEs, aggregations, `DATEDIFF()`, `COALESCE()`, `NULLIF()`, `RANK()`, and partitioned window functions.
+
+**Key Business Insights:**
+- Modeled hotel occupancy ranged from **0.20% to 1.07%**, with the overall portfolio at approximately **0.66%** during the analysis period.
+- Cove Vista Retreat achieved the highest ADR at approximately **₹13,190**, while Highway Haven Motel recorded the lowest at approximately **₹1,792**.
+- Cove Vista Retreat also recorded the highest RevPAR at approximately **₹140.74**, followed by Aravalli Palace Resort at **₹127.44**.
+- Suite rooms generated the highest room revenue at approximately **₹5.88 crore**, while Villa rooms recorded the highest ADR and room-type occupancy.
+- Highest-utilized room categories varied across properties, demonstrating differences in room-type demand between hotels.
+- Occupancy results are based on the modeled synthetic booking volume and analysis period and should not be interpreted as real-world industry benchmarks.
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
