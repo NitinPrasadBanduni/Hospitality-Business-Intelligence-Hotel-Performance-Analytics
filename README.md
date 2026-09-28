@@ -180,6 +180,18 @@ The dataset is designed to support analysis of questions such as:
 - All validation checks passed.
 - No data-quality corrections were required beyond text standardization.
 
+**07H. Service_Usage Cleaning**
+- Standardized service usage identifiers, booking IDs, service IDs, and payment status values.
+- Validated usage IDs, booking references, service references, usage dates, quantities, discounts, and payment statuses.
+- Confirmed that all service usage dates fall within the corresponding booking stay period.
+- Verified that service quantities remain within the expected 1–10 range and discounts within 0–25%.
+- Confirmed that all services used belong to the same hotel as the corresponding booking.
+- Service usage records per booking range from 1 to 7.
+- Payment status distribution: 17,709 Paid, 1,383 Pending, and 408 Complimentary.
+- Final validation confirmed 19,500 service usage records, 19,500 unique usage IDs, 6,397 bookings with service usage, and 151 services used.
+- All validation checks passed.
+- No data-quality corrections were required beyond text standardization.
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
