@@ -318,6 +318,7 @@ FROM vw_booking_performance;
 -- ------------------------------------------------------------
 -- Duplicate Booking Validation
 -- ------------------------------------------------------------
+
 SELECT
     booking_id,
     COUNT(*) AS duplicate_count
@@ -330,6 +331,7 @@ HAVING COUNT(*) > 1;
 -- ------------------------------------------------------------
 -- Revenue Reconciliation
 -- ------------------------------------------------------------
+
 SELECT
     ROUND(
         SUM(room_revenue),
@@ -357,6 +359,7 @@ FROM vw_booking_performance;
 -- ------------------------------------------------------------
 -- Booking Logic Validation
 -- ------------------------------------------------------------
+
 SELECT *
 FROM vw_booking_performance
 WHERE length_of_stay <= 0
@@ -367,6 +370,7 @@ WHERE length_of_stay <= 0
 -- ------------------------------------------------------------
 -- Revenue Validation
 -- ------------------------------------------------------------
+
 SELECT *
 FROM vw_booking_performance
 WHERE room_revenue < 0
@@ -377,6 +381,7 @@ WHERE room_revenue < 0
 -- ------------------------------------------------------------
 -- Guest Classification Validation
 -- ------------------------------------------------------------
+
 SELECT
     guest_type,
     COUNT(*) AS booking_count
@@ -388,6 +393,7 @@ GROUP BY
 -- ------------------------------------------------------------
 -- Service Usage Validation
 -- ------------------------------------------------------------
+
 SELECT
     service_user_flag,
     COUNT(*) AS booking_count
@@ -399,6 +405,7 @@ GROUP BY
 -- ------------------------------------------------------------
 -- Booking-Level Range Checks
 -- ------------------------------------------------------------
+
 SELECT
     MIN(length_of_stay) AS min_length_of_stay,
     MAX(length_of_stay) AS max_length_of_stay,
@@ -416,6 +423,7 @@ FROM vw_booking_performance;
 -- ------------------------------------------------------------
 -- Revenue Sample
 -- ------------------------------------------------------------
+
 SELECT *
 FROM vw_booking_performance
 ORDER BY booking_date, booking_id

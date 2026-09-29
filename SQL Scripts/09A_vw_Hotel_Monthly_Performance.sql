@@ -438,6 +438,7 @@ FROM vw_hotel_monthly_performance;
 -- -----------------------------------------------
 -- Check for duplicate hotel-month combinations
 -- -----------------------------------------------
+
 SELECT
     hotel_id,
     month_start,
@@ -452,6 +453,7 @@ HAVING COUNT(*) > 1;
 -- ------------------------------------------------
 -- Check analysis period
 -- ------------------------------------------------
+
 SELECT
     MIN(month_start) AS first_month,
     MAX(month_start) AS last_month
@@ -461,6 +463,7 @@ FROM vw_hotel_monthly_performance;
 -- ----------------------------------------------------
 -- Check for impossible occupancy
 -- ----------------------------------------------------
+
 SELECT *
 FROM vw_hotel_monthly_performance
 WHERE occupied_room_nights > available_room_nights;
@@ -469,6 +472,7 @@ WHERE occupied_room_nights > available_room_nights;
 -- -----------------------------------------------------
 -- Check revenue totals against our completed analyses
 -- -----------------------------------------------------
+
 SELECT
     ROUND(
         SUM(room_revenue),
