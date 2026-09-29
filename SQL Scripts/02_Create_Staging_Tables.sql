@@ -1,7 +1,5 @@
 /*=========================================================================
 Project : Hospitality Business Intelligence & Hotel Performance Analytics
-Author  : Nitin Prasad
-Database: Hospitality_BI
 File    : 02_Create_Staging_Tables.sql
 
 Purpose:

@@ -1,7 +1,5 @@
 /*=========================================================================
 Project : Hospitality Business Intelligence & Hotel Performance Analytics
-Author  : Nitin Prasad
-Database: Hospitality_BI
 File    : 08B_Occupancy_&_Room_Analysis.sql
 
 Purpose:

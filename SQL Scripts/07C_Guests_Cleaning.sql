@@ -1,7 +1,5 @@
 /*=========================================================================
 Project : Hospitality Business Intelligence & Hotel Performance Analytics
-Author  : Nitin Prasad
-Database: Hospitality_BI
 File    : 07C_Guests_Cleaning.sql
 
 Purpose:
