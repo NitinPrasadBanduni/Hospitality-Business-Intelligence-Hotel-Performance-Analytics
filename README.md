@@ -320,6 +320,38 @@ Five business-focused SQL analyses were performed to evaluate revenue trends, mo
 - Skyline Transit Hotel recorded the highest number of month-over-month growth periods, with **20 growth months out of 31 comparisons**.
 - The analysis demonstrated that revenue growth frequency, percentage growth, and absolute revenue growth provide different perspectives on hotel performance.
 - Applied SQL techniques including CTEs, `UNION ALL`, conditional aggregation, `LAG()`, `RANK()`, recursive CTEs, calendar generation, and partitioned window functions.
+
+**09. Analytical Views**
+
+Five reusable analytical views were created after completing the SQL analysis phase. Each view has a defined analytical grain and consolidates recurring business logic for SQL analysis and Power BI reporting.
+
+| View                           | Grain           | Purpose                                                                                                                                                | Power BI Use |
+| ------------------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| `vw_hotel_monthly_performance` | Hotel × Month   | Combines room revenue, service revenue, occupancy, ADR, RevPAR, expenses, operating profit, and profit margin for monthly hotel performance tracking.  | ✅ Primary    |
+| `vw_booking_performance`       | One Booking     | Combines booking details, length of stay, booking lead time, room revenue, service revenue, payment activity, service usage, and guest attributes.     | ✅            |
+| `vw_room_performance`          | Booking × Room  | Provides room-level stay, pricing, discount, revenue, room-night, booking-status, and guest-rating metrics.                                            | ✅            |
+| `vw_guest_behavior`            | One Guest       | Consolidates guest booking frequency, repeat behavior, cross-hotel activity, service usage, ratings, and realized revenue.                             | ✅            |
+| `vw_service_performance`       | Hotel × Service | Combines service catalogue information with usage volume, payment status, discounts, realized revenue, pending revenue, and service-level performance. | ✅            |
+
+**View Development Approach:**
+
+* Views were created after the business-analysis phase so that reusable logic was based on actual analytical requirements.
+* Each view maintains a clearly defined grain to prevent transaction duplication and preserve analytical accuracy.
+* Room, service, payment, and expense transactions are aggregated at the appropriate level before being combined into higher-level analytical views where required.
+* Calculated business metrics are exposed through views rather than modifying the underlying operating tables.
+
+**Validation:**
+
+* `vw_hotel_monthly_performance`: 640 hotel-month records with no duplicate hotel-month combinations and financial totals reconciled with the completed analyses.
+* `vw_booking_performance`: 10,000 booking records with one row per booking and revenue totals reconciled with the completed analyses.
+* `vw_room_performance`: 12,792 booking-room records with one row per booking-room assignment and room revenue, discounts, and occupied room nights reconciled.
+* `vw_guest_behavior`: 5,000 guest records with one row per guest and guest-level revenue and behavioral metrics reconciled.
+* `vw_service_performance`: 151 hotel-specific service records with service usage and revenue totals reconciled.
+* All five analytical views passed structural, logical, relationship, and financial reconciliation checks.
+
+**Power BI Integration:**
+The analytical views provide reporting-ready datasets for the Power BI layer, with `vw_hotel_monthly_performance` serving as the primary hotel-performance source and the remaining views supporting booking, room, guest, and service-level analysis.
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
