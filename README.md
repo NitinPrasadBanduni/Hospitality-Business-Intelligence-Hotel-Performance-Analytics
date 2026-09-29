@@ -260,6 +260,24 @@ Five business-focused SQL analyses were performed to understand guest retention,
 - Corporate Booking and Travel Agent bookings had the longest average lead times at approximately **24.79 and 24.51 days**, while Walk-in bookings averaged just **1 day**.
 - **67.80% of guests** made more than one booking, with the largest segment consisting of guests making exactly two bookings.
 - New guest bookings generated an average realized revenue of approximately **₹33,156 per booking**, compared with **₹31,954** for returning guest bookings.
+
+**08D. Service Analysis**
+
+Four business-focused SQL analyses were performed to evaluate service revenue, service-level performance, guest adoption, and the financial value of service usage.
+
+**Analysis Covered:**
+- Compared realized revenue across the five service categories.
+- Ranked individual hotel services based on realized service revenue.
+- Measured service adoption across hotels based on the proportion of bookings using at least one service.
+- Compared average realized service revenue per service-using booking across hotels.
+- Applied SQL techniques including `JOIN`, CTEs, aggregation, `COUNT(DISTINCT)`, conditional logic, `RANK()`, and calculated metrics.
+
+**Key Business Insights:**
+- Food & Beverage generated the highest realized service revenue at approximately **₹2.18 crore**, followed by Housekeeping & Convenience at approximately **₹1.27 crore**.
+- Spa (S0030) was the highest-revenue individual service, generating approximately **₹17.88 lakh**.
+- **63.97% of bookings** used at least one hotel service, with Aravalli Palace Resort recording the highest service adoption at **84.68%**.
+- Aurelia Grand Delhi recorded the highest average realized service revenue per service-using booking at approximately **₹11,724**.
+- Service adoption and service spending per using booking varied considerably across properties, showing that participation and revenue intensity should be evaluated together.
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
