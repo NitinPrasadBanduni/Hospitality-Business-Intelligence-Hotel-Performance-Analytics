@@ -352,6 +352,43 @@ Five reusable analytical views were created after completing the SQL analysis ph
 **Power BI Integration:**
 The analytical views provide reporting-ready datasets for the Power BI layer, with `vw_hotel_monthly_performance` serving as the primary hotel-performance source and the remaining views supporting booking, room, guest, and service-level analysis.
 
+**10. Stored Procedures**
+
+Three reusable stored procedures were created for parameterized hotel and guest analysis.
+
+### `sp_hotel_performance`
+
+**Purpose:** Returns consolidated performance KPIs for a selected hotel and reporting period.
+
+**Parameters:** `p_hotel_id`, `p_start_date`, `p_end_date`
+
+```sql
+CALL sp_hotel_performance('H003', '2024-01-01', '2026-08-31');
+```
+
+### `sp_monthly_hotel_performance`
+
+**Purpose:** Returns monthly performance KPIs for a selected hotel or the complete hotel portfolio.
+
+**Parameters:** `p_hotel_id`, `p_start_date`, `p_end_date`
+Use `NULL` for `p_hotel_id` to return all hotels.
+
+```sql
+CALL sp_monthly_hotel_performance('H003', '2024-01-01', '2026-08-31');
+
+CALL sp_monthly_hotel_performance(NULL, '2024-01-01', '2026-08-31');
+```
+
+### `sp_guest_booking_history`
+
+**Purpose:** Returns booking history and revenue details for a selected guest.
+
+**Parameters:** `p_guest_id`
+
+```sql
+CALL sp_guest_booking_history('G03289');
+```
+
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
