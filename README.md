@@ -278,6 +278,27 @@ Four business-focused SQL analyses were performed to evaluate service revenue, s
 - **63.97% of bookings** used at least one hotel service, with Aravalli Palace Resort recording the highest service adoption at **84.68%**.
 - Aurelia Grand Delhi recorded the highest average realized service revenue per service-using booking at approximately **₹11,724**.
 - Service adoption and service spending per using booking varied considerably across properties, showing that participation and revenue intensity should be evaluated together.
+
+**08E. Expense & Profitability Analysis**
+
+Five business-focused SQL analyses were performed to evaluate the hotel's cost structure, profitability, cost efficiency, and ability to cover operating expenses.
+
+**Analysis Covered:**
+- Analyzed the distribution and contribution of operating expenses across expense categories.
+- Compared realized revenue, operating expenses, and operating profit across hotels.
+- Calculated operating profit margin to evaluate profitability relative to realized revenue.
+- Measured operating expense per occupied room night to normalize cost burden across properties.
+- Calculated the revenue-to-expense ratio to evaluate how effectively realized revenue covers operating costs.
+- Applied SQL techniques including CTEs, `JOIN`, `LEFT JOIN`, aggregation, conditional logic, `NULLIF()`, and calculated financial metrics.
+
+**Key Business Insights:**
+- Employee & Staff was the largest expense category, accounting for **28.33%** of total operating expenses.
+- The portfolio generated approximately **₹32.55 crore** in realized revenue against **₹33.89 crore** in operating expenses, resulting in an operating loss of approximately **₹1.34 crore**.
+- Five hotels generated positive operating profit, with Cove Vista Retreat recording the highest operating profit at approximately **₹3.34 crore**.
+- Cove Vista Retreat also recorded the highest operating profit margin at **55.38%**, while several properties recorded negative margins due to operating expenses exceeding realized revenue.
+- Operating expense per occupied room night ranged from approximately **₹6,823 to ₹32,051**, highlighting substantial variation in cost burden across properties.
+- Cove Vista Retreat generated approximately **₹2.24 of realized revenue for every ₹1 of operating expense**, while several hotels generated less than ₹1 of realized revenue per ₹1 of operating expense.
+- The profitability results should be interpreted alongside occupancy, ADR, revenue scale, and operating cost structure.
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
