@@ -299,6 +299,27 @@ Five business-focused SQL analyses were performed to evaluate the hotel's cost s
 - Operating expense per occupied room night ranged from approximately **₹6,823 to ₹32,051**, highlighting substantial variation in cost burden across properties.
 - Cove Vista Retreat generated approximately **₹2.24 of realized revenue for every ₹1 of operating expense**, while several hotels generated less than ₹1 of realized revenue per ₹1 of operating expense.
 - The profitability results should be interpreted alongside occupancy, ADR, revenue scale, and operating cost structure.
+
+**08F. Trend & Performance Analysis**
+
+Five business-focused SQL analyses were performed to evaluate revenue trends, monthly performance changes, hotel-level revenue rankings, year-over-year growth, and revenue growth consistency.
+
+**Analysis Covered:**
+- Analyzed monthly realized revenue trends across the portfolio.
+- Calculated month-over-month revenue changes and percentage movements using `LAG()`.
+- Ranked the top-performing hotels by monthly realized revenue using partitioned window functions.
+- Compared hotel-level realized revenue for January-August 2025 versus January-August 2026.
+- Measured the consistency of monthly revenue growth using a complete hotel-month calendar and `LAG()`.
+
+**Key Business Insights:**
+- Monthly realized revenue showed substantial variation throughout the analysis period, with August 2026 recording the highest monthly revenue at approximately **₹2.78 crore**.
+- October 2025 recorded a **104.49%** month-over-month revenue increase, while April 2024 recorded the largest decline at **39.64%**.
+- Cove Vista Retreat ranked first in monthly realized revenue in **19 of 32 months**, showing sustained revenue leadership across the analysis period.
+- All 20 hotels recorded positive realized revenue growth when comparing **January-August 2026 with January-August 2025**.
+- Awadh Heritage House recorded the highest percentage growth at **238.73%**, while Cove Vista Retreat recorded the largest absolute revenue increase of approximately **₹1.29 crore**.
+- Skyline Transit Hotel recorded the highest number of month-over-month growth periods, with **20 growth months out of 31 comparisons**.
+- The analysis demonstrated that revenue growth frequency, percentage growth, and absolute revenue growth provide different perspectives on hotel performance.
+- Applied SQL techniques including CTEs, `UNION ALL`, conditional aggregation, `LAG()`, `RANK()`, recursive CTEs, calendar generation, and partitioned window functions.
 ---
 
 *Project documentation will be expanded as SQL cleaning, analysis, Power BI development, and final insights are completed.*
