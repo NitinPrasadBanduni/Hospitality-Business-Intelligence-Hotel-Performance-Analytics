@@ -499,13 +499,6 @@ The final Power BI solution contains **six interactive reports**, each designed 
 
 Provides a high-level overview of hotel group performance, revenue generation, operating expenses, profitability, and revenue mix.
 
-## 🔎 Slicers
-
-- Year
-- Hotel
-- Hotel Type
-- Booking Channel
-
 ## 📌 KPIs
 
 - Total Realized Revenue
@@ -548,10 +541,6 @@ The report provides management with an overall snapshot of the group's financial
 
 ![Executive Overview](<Power BI/Dashboard Screenshots/01_Executive_Overview.png>)
 
-## 🔗 Power BI Report
-
-**Report Link:** _Add Power BI report link here_
-
 ---
 
 # 2️⃣ Revenue & Channel Performance
@@ -559,13 +548,6 @@ The report provides management with an overall snapshot of the group's financial
 ## 🎯 Report Purpose
 
 Analyzes revenue generation across hotels, hotel types, and booking channels while comparing booking volume and booking value.
-
-## 🔎 Slicers
-
-- Year
-- Hotel
-- Hotel Type
-- Booking Channel
 
 ## 📌 KPIs
 
@@ -603,11 +585,7 @@ The report identifies the strongest revenue-generating properties, hotel types, 
 
 ## 🖼️ Dashboard Screenshot
 
-![Revenue & Channel Performance](<Dashboard Screenshots/02_Revenue_&_Channel_Performance.png>)
-
-## 🔗 Power BI Report
-
-**Report Link:** _Add Power BI report link here_
+![Revenue & Channel Performance](<Power BI/Dashboard Screenshots/02_Revenue_&_Channel_Performance.png>)
 
 ---
 
@@ -616,12 +594,6 @@ The report identifies the strongest revenue-generating properties, hotel types, 
 ## 🎯 Report Purpose
 
 Evaluates room utilization, occupancy, pricing performance, room revenue, and room-type contribution across the hotel group.
-
-## 🔎 Slicers
-
-- Year
-- Hotel
-- Hotel Type
 
 ## 📌 KPIs
 
@@ -663,11 +635,7 @@ The report compares room utilization and pricing performance across properties a
 
 ## 🖼️ Dashboard Screenshot
 
-![Occupancy & Room Performance](<Dashboard Screenshots/03_Occupancy_&_Room_Performance.png>)
-
-## 🔗 Power BI Report
-
-**Report Link:** _Add Power BI report link here_
+![Occupancy & Room Performance](<Power BI/Dashboard Screenshots/03_Occupancy_&_Room_Performance.png>)
 
 ---
 
@@ -676,13 +644,6 @@ The report compares room utilization and pricing performance across properties a
 ## 🎯 Report Purpose
 
 Analyzes guest behavior, booking patterns, customer loyalty, stay duration, lead time, booking channels, and booking value.
-
-## 🔎 Slicers
-
-- Year
-- Guest Type
-- Booking Channel
-- Length of Stay Band
 
 ## 📌 KPIs
 
@@ -724,11 +685,7 @@ The report provides a customer and booking-level view of hotel demand, showing h
 
 ## 🖼️ Dashboard Screenshot
 
-![Guest & Booking Analytics](<Dashboard Screenshots/04_Guest_&_Booking_Analytics.png>)
-
-## 🔗 Power BI Report
-
-**Report Link:** _Add Power BI report link here_
+![Guest & Booking Analytics](<Power BI/Dashboard Screenshots/04_Guest_&_Booking_Analytics.png>)
 
 ---
 
@@ -737,13 +694,6 @@ The report provides a customer and booking-level view of hotel demand, showing h
 ## 🎯 Report Purpose
 
 Evaluates service demand, utilization, adoption, revenue contribution, and service-level performance across hotels.
-
-## 🔎 Slicers
-
-- Year
-- Hotel
-- Hotel Type
-- Service Category
 
 ## 📌 KPIs
 
@@ -783,11 +733,7 @@ The report identifies which service categories and properties generate the stron
 
 ## 🖼️ Dashboard Screenshot
 
-![Services & Operations Performance](<Dashboard Screenshots/05_Services_&_Operations_Performance.png>)
-
-## 🔗 Power BI Report
-
-**Report Link:** _Add Power BI report link here_
+![Services & Operations Performance](<Power BI/Dashboard Screenshots/05_Services_&_Operations_Performance.png>)
 
 ---
 
@@ -796,13 +742,6 @@ The report identifies which service categories and properties generate the stron
 ## 🎯 Report Purpose
 
 Evaluates operating costs, hotel profitability, financial efficiency, and the relationship between revenue and expenses.
-
-## 🔎 Slicers
-
-- Year
-- Hotel
-- Hotel Type
-- Expense Category
 
 ## 📌 KPIs
 
@@ -843,11 +782,7 @@ The report provides a consolidated view of portfolio financial health and highli
 
 ## 🖼️ Dashboard Screenshot
 
-![Expenses, Profitability & Trend](<Dashboard Screenshots/06_Expenses_Profitability_Trend.png>)
-
-## 🔗 Power BI Report
-
-**Report Link:** _Add Power BI report link here_
+![Expenses, Profitability & Trend](<Power BI/Dashboard Screenshots/06_Expenses_Profitability_Trend.png>)
 
 ---
 
