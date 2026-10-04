@@ -1,21 +1,120 @@
-# Hospitality-Business-Intelligence-Hotel-Performance-Analytics
+# 🏨 Hospitality Business Intelligence & Hotel Performance Analytics
 
-## Project Overview
-
-**Hospitality Business Intelligence & Hotel Performance Analytics** is a SQL and Power BI business intelligence project designed for a **multi-property hotel group operating across India**.
-
-The objective of the project is to analyze hotel performance across four major business areas:
-
-* **Revenue Performance**
-* **Occupancy & Room Performance**
-* **Guest Behavior**
-* **Operations & Profitability**
-
-The project uses a synthetic relational dataset representing hotels, rooms, guests, bookings, payments, services, service usage, and operating expenses. The dataset is designed to support data cleaning, preparation, analysis, and visualization using SQL and Power BI.
+> An end-to-end SQL and Power BI business intelligence project for analyzing revenue, occupancy, guest behavior, service performance, operating expenses, profitability, and performance trends across a multi-property hotel group in India.
 
 ---
 
-## Dataset Overview
+## 📌 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Business Problem](#-business-problem)
+- [Project Objectives](#-project-objectives)
+- [Dataset Overview](#-dataset-overview)
+- [Database Schema](#-database-schema)
+- [Technology Stack](#-technology-stack)
+- [Project Workflow](#-project-workflow)
+- [SQL Development](#-sql-development)
+- [Data Profiling & Validation](#-data-profiling--validation)
+- [Business Analysis](#-business-analysis)
+- [Analytical SQL Views](#-analytical-sql-views)
+- [Stored Procedures](#-stored-procedures)
+- [Triggers & Business Rules](#-triggers--business-rules)
+- [Power BI Data Model](#-power-bi-data-model)
+- [Power BI Dashboard](#-power-bi-dashboard)
+- [Key Business Insights](#-key-business-insights)
+- [Overall Business Conclusions](#-overall-business-conclusions)
+- [Project Outcome](#-project-outcome)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Repository Structure](#-repository-structure)
+- [Limitations & Assumptions](#️-limitations--assumptions)
+- [Future Enhancements](#-future-enhancements)
+- [Author](#-author)
+
+---
+
+# 📌 Project Overview
+
+**Hospitality Business Intelligence & Hotel Performance Analytics** is an end-to-end business intelligence project built around a synthetic multi-property hotel group operating across India.
+
+The project combines **MySQL** and **Microsoft Power BI** to transform operational hospitality data into a structured analytical solution covering:
+
+- 💰 Revenue Performance
+- 🏨 Occupancy & Room Performance
+- 👥 Guest & Booking Behavior
+- 🛎️ Service & Operations Performance
+- 💸 Expenses & Profitability
+- 📈 Trends & Performance Monitoring
+
+The SQL layer was used to build the database, perform ETL, profile and validate data, conduct business analysis, create reusable analytical views, implement stored procedures, and enforce business rules through triggers.
+
+The Power BI layer was then used to build the analytical data model, develop DAX measures, and create six interactive management-oriented dashboards.
+
+---
+
+# 💼 Business Problem
+
+A hotel group operating multiple properties needs a centralized analytical solution to understand business performance across hotels, rooms, guests, bookings, services, payments, and operating expenses.
+
+Management needs to answer questions such as:
+
+- Which hotels generate the highest revenue?
+- Which properties are the most profitable?
+- Which booking channels contribute the most revenue?
+- How efficiently is the available room inventory being utilized?
+- Which room types perform best?
+- What booking patterns indicate guest loyalty?
+- Which guests book across multiple properties?
+- Which services generate the highest revenue and usage?
+- Where are operating expenses concentrated?
+- Which hotels are profitable or loss-making?
+- How are revenue and expenses changing over time?
+
+This project addresses these questions through a complete **SQL → Analytics → Power BI → Business Insights** workflow.
+
+---
+
+# 🎯 Project Objectives
+
+The project was designed to:
+
+1. Analyze hotel revenue and revenue mix.
+2. Measure occupancy, ADR, RevPAR, and room performance.
+3. Understand guest behavior and booking patterns.
+4. Evaluate service usage, adoption, and revenue contribution.
+5. Analyze operating expenses and hotel profitability.
+6. Compare hotel performance across properties, hotel types, room types, and booking channels.
+7. Build reusable analytical datasets using SQL views.
+8. Implement reusable stored procedures and database-level business rules.
+9. Develop six interactive Power BI reports.
+10. Translate analytical findings into business insights and recommendations.
+
+---
+
+# 📊 Dataset Overview
+
+The project uses a **synthetic relational hospitality dataset** containing nine related tables.
+
+## Dataset Scope
+
+| Attribute | Details |
+|---|---|
+| **Geography** | India |
+| **Hotels** | 20 |
+| **Rooms** | 5,000 |
+| **Guests** | 5,000 |
+| **Bookings** | 10,000 |
+| **Booking-Room Records** | 12,792 |
+| **Payments** | 10,384 |
+| **Services** | 151 |
+| **Service Usage Records** | 19,500 |
+| **Expenses** | 8,064 |
+| **Booking Period** | January 2024 – August 2026 |
+| **Guest Registration Period** | 2016 – 2025 |
+| **Hotel Opening Period** | 2000 – 2010 |
+| **Dataset Type** | Synthetic |
+
+---
+# Database Schema
 
 The dataset contains **9 related tables** covering the major operational areas of a hotel business.
 
