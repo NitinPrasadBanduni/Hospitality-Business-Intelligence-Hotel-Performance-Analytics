@@ -4,34 +4,6 @@
 
 ---
 
-## 📌 Table of Contents
-
-- [Project Overview](#-project-overview)
-- [Business Problem](#-business-problem)
-- [Project Objectives](#-project-objectives)
-- [Dataset Overview](#-dataset-overview)
-- [Database Schema](#-database-schema)
-- [Technology Stack](#-technology-stack)
-- [Project Workflow](#-project-workflow)
-- [SQL Development](#-sql-development)
-- [Data Profiling & Validation](#-data-profiling--validation)
-- [Business Analysis](#-business-analysis)
-- [Analytical SQL Views](#-analytical-sql-views)
-- [Stored Procedures](#-stored-procedures)
-- [Triggers & Business Rules](#-triggers--business-rules)
-- [Power BI Data Model](#-power-bi-data-model)
-- [Power BI Dashboard](#-power-bi-dashboard)
-- [Key Business Insights](#-key-business-insights)
-- [Overall Business Conclusions](#-overall-business-conclusions)
-- [Project Outcome](#-project-outcome)
-- [Skills Demonstrated](#-skills-demonstrated)
-- [Repository Structure](#-repository-structure)
-- [Limitations & Assumptions](#️-limitations--assumptions)
-- [Future Enhancements](#-future-enhancements)
-- [Author](#-author)
-
----
-
 # 📌 Project Overview
 
 **Hospitality Business Intelligence & Hotel Performance Analytics** is an end-to-end business intelligence project built around a synthetic multi-property hotel group operating across India.
