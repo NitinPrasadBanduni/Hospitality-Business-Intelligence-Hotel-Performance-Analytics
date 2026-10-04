@@ -546,7 +546,7 @@ The report provides management with an overall snapshot of the group's financial
 
 ## 🖼️ Dashboard Screenshot
 
-![Executive Overview](<Dashboard Screenshots/01_Executive_Overview.png>)
+![Executive Overview](<Power BI/Dashboard Screenshots/01_Executive_Overview.png>)
 
 ## 🔗 Power BI Report
 
@@ -1072,9 +1072,8 @@ Hospitality-Business-Intelligence-Hotel-Performance-Analytics/
 │   └── 12_Remove_Staging_Tables.sql
 │
 ├── Power BI/
-│   └── Hospitality_Business_Intelligence.pbix
-│
-├── Dashboard Screenshots/
+│   ├── Hospitality_BI.pbix
+│   └── Dashboard Screenshots/
 │   ├── 01_Executive_Overview.png
 │   ├── 02_Revenue_&_Channel_Performance.png
 │   ├── 03_Occupancy_&_Room_Performance.png
