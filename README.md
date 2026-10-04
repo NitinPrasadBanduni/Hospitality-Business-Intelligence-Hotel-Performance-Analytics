@@ -114,7 +114,8 @@ The project uses a **synthetic relational hospitality dataset** containing nine 
 | **Dataset Type** | Synthetic |
 
 ---
-# Database Schema
+
+# 🗃️ Database Schema
 
 The dataset contains **9 related tables** covering the major operational areas of a hotel business.
 
